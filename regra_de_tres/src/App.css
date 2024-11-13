@@ -1,0 +1,114 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* styles */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #010409;
+  color: white;
+  font-family: 'Sour Gummy', sans-serif;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Input */
+#values{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  
+  width: 75%;
+  
+  border-radius: 5px;
+  background-color: #151B23;
+}
+#values > #row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+#values input{
+  margin: 10px;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  caret-color: transparent;
+  
+  background-color: #1E9E74;
+  color: #fff;
+  font-family: 'Sour Gummy', sans-serif;
+  
+}
+#values input::placeholder{
+  color: #ffffff73;
+  font-family: 'Sour Gummy', sans-serif;
+}
+#values input:focus{
+  outline: 2px solid #6dffce;
+  box-shadow: 0 0 10px #1E9E74;
+}
+#values #x{
+  background-color: #046846;
+}
+#values #x:focus{
+  outline: 2px solid #07c183;
+  box-shadow: 0 0 10px #046846;
+}
+
+
+#info{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 20px;
+  width: 75%;
+  text-overflow: wrap;
+  background-color: #151B23;
+  border-radius: 5px;
+}
+#info > p{
+  text-align: justify;
+}
+#info > p > span{
+  color: #6dffce;
+}
+
+
+
+/* Para navegadores como Chrome e Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Para Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* "reponsividade" */
+@media (max-width: 400px){
+  #values,
+  #info{
+    width: 90%;
+  }
+
+  #values input{
+    width: 40%;
+  }
+}
