@@ -2,6 +2,8 @@
 
 Este é o meu primeiro projeto desenvolvido em **React**, uma calculadora simples para resolver problemas de regra de três. O objetivo do projeto foi praticar a criação de componentes React, gerenciamento de estado e estilização básica.
 
+<hr>
+
 ## Demonstração
 
 Veja abaixo algumas capturas de tela do projeto:
@@ -11,7 +13,7 @@ Veja abaixo algumas capturas de tela do projeto:
 ![Tela completa](./public/image1.png)
 ![Calculando](./public/image2.png)
 
-> **Observação:** Substitua `"path-to-image-1.png"`, `"path-to-image-2.png"`, etc., pelo caminho correto das imagens no repositório.
+<hr>
 
 ## Funcionalidades
 
@@ -19,11 +21,15 @@ Veja abaixo algumas capturas de tela do projeto:
 - Cálculo automático do valor de **x** ao clicar no último campo.
 - Formatação de resultado com duas casas decimais.
 
+<hr>
+
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para a construção da interface.
 - **CSS**: Estilização dos componentes, com foco em uma interface limpa e intuitiva.
 - **JavaScript**: Função de cálculo baseada na regra de três simples.
+
+<hr>
 
 ## Como Executar o Projeto
 
@@ -41,6 +47,8 @@ Veja abaixo algumas capturas de tela do projeto:
    npm start
 
 4. Abra [http://localhost:3000](http://localhost:3000) no navegador para visualizar o projeto.
+
+<hr>
 
 ## Estrutura do Projeto
 
@@ -62,6 +70,8 @@ O projeto possui a seguinte estrutura de arquivos:
     ├── package-lock.json
     └── package.json
     ```
+
+<hr>
 
 ## Próximos Passos
 
