@@ -35,8 +35,8 @@ Veja abaixo algumas capturas de tela do projeto:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
+   git clone https://github.com/Herickjf/ReactProjects.git
+   cd regra_de_tres
 
 2. **Instale as dependências**:
    ```bash
